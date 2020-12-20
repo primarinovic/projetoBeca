@@ -1,0 +1,26 @@
+INDEX VERSION 1.131+C:\Users\psantoma\OneDrive - everis\Escritorio\Treinamento Beca\projetoSelenium\.metadata\.plugins\org.eclipse.jdt.core
+1243333014.index
+1874812975.index
+3156610387.index
+288370016.index
+2438967944.index
+3407949316.index
+3225088041.index
+1095564547.index
+3647624293.index
+2513770657.index
+1803411688.index
+65173317.index
+2157361655.index
+1077782854.index
+3363250003.index
+4166903363.index
+3912940163.index
+402401022.index
+2851494201.index
+985345316.index
+800738774.index
+1991926944.index
+703367054.index
+1432465664.index
+1108909708.index
