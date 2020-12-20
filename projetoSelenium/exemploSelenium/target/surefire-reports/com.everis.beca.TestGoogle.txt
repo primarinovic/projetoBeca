@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.everis.beca.TestGoogle
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.369 s <<< FAILURE! - in com.everis.beca.TestGoogle
+com.everis.beca.TestGoogle.pesquisarPorEveris  Time elapsed: 1.041 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div[2]/form/div[2]/div[1]/div[1]/div/div[2]/input"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAO-5YW7QM2', ip: '10.150.24.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\psantoma\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ddf0e0bc52a6fb0bdbee24878ef8029d
+*** Element info: {Using=xpath, value=/html/body/div[2]/div[2]/form/div[2]/div[1]/div[1]/div/div[2]/input}
+	at com.everis.beca.TestGoogle.pesquisarPorEveris(TestGoogle.java:42)
+

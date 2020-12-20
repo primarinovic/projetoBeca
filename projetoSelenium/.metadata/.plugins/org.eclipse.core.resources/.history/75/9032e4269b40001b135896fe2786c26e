@@ -1,0 +1,27 @@
+package com.everis.beca;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ExemploSelenium {
+	
+	static WebDriver driver;
+	
+	@BeforeClass
+	public static void createDriver() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\psantoma\\drivers\\chromedriver.exe");
+		driver = new ChromeDriver();
+	}
+	
+	@Test
+	public void testHello() {
+		driver.get("http://duque.dev");
+		assertEquals(driver.getTitle(), "{duque.dev}");
+	}
+	
+
+}
